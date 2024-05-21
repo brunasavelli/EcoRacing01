@@ -16,7 +16,7 @@
 
 body {
     font-family: "Lora", sans-serif;
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(105, 105, 105);
 }
 
 h1 {
@@ -70,22 +70,6 @@ header {
     transform: scale(1.05);
 }
 
-#carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    background-color: #49ff1bf3;
-    margin: 20px;
-}
-
-#carousel img {
-    height: 100%;
-    width: 100%;
-    border-radius: 12px;
-    object-fit: cover;
-}
-
 #main-new {
     width: 70%;
     background-color: #23af00f3;
@@ -101,6 +85,9 @@ header {
 }
 
 main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-around;
 }
