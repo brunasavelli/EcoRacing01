@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lora- {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: medium;
+}
+
+body {
+    font-family: "Lora", sans-serif;
+    background-color: rgb(54, 54, 54);
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    color: #474747f3;
+    align-items: center;
+}
+
+#logo-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#links a {
+    text-decoration: none;
+    color: #ececec;
+    font-size: 1.2rem;
+}
+
+#links a {
+    text-decoration: none;
+    color: #ececec;
+    font-size: 1.2rem;
+    border-bottom: 3px solid transparent;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+#links a:hover {
+    border-bottom: 3px solid #49ff1bf3; 
+    color:rgb(139, 255, 135);
+    transform: scale(1.05);
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #49ff1bf3;
+    margin: 20px;
+}
+
+#carousel img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#main-new {
+    width: 70%;
+    background-color: #23af00f3;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#aside {
+    width: 28%;
+    background-color: rgb(139, 255, 135);
+    margin: 20px;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
